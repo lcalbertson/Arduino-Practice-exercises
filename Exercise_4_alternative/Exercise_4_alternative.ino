@@ -18,6 +18,7 @@ void loop()
   {
     int percent = 255 * x / 100;  //convert the percentage value x to the equiv PWM number
     analogWrite(led,percent);
+    //analogWrite(led,255 * x / 100);   //this also works the int percent var is not needed
     delay(delayLength);
   }
 }
