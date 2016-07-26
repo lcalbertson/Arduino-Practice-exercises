@@ -4,7 +4,9 @@ Arduino simple learning projects.
 
 1 - Attach a single LED to a digital pin and run a sketch that configures the pin to turn on and stay on.
 
-2 - With a single LED write a sketch that blinks the LED at a rate of 500 ms
+2a - With a single LED write a sketch that blinks the LED at a rate of 500 ms (do this by using the digitalWrite and delay function)
+
+2b - With a single LED write a sketch that blinks the LED at a rate of 500 ms (do this by using digitalWrite delay and digitalRead to change the state of the LED)
 
 3a - With a single LED write a sketch that blinks the LED at a rate of 500 ms on and 500 ms off for ten cycles then turns off for 5 seconds then repeats
 
