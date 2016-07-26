@@ -1,5 +1,5 @@
 /*  Arduino learning
- *  Exercise #2
+ *  Exercise #2a
  * 
  */
 
