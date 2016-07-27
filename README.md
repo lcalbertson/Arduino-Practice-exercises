@@ -22,7 +22,15 @@ Arduino simple learning projects.
 
 7 - Make a "3 way lamp" using the LED and button to let the user turn on the light at 100/50/25/off
 
-8 - Using the arduino serial monitor write a sketch where a user can turn on a single LED by typing the number 1 and turn off the LED by typing the number 2
+8a - Use the arduino serial monitor to write a hello world sketch - Every 5 seconds send from the arduino a message that says "Hello World"
+
+8b - Over serial let the user send a single keyboard character to the arduino and have the arduino respond with a message that says "received message: " then the message
+
+8c - Over serial let the user send multiple characters and have the arduino respond with "received message: " then the message
+
+8d - Using the arduino serial monitor write a sketch where a user can turn on a single LED by typing the number 1 and turn off the LED by typing the number 2
+
+8e - using the arudino serial monitor write a sketch where the user can turn on and off the LED by typing "On" and "Off"
 
 9 - Using the serial monitor write a sketch where the user can turn on and off the LED by typing 100 and 0 and any number in between to control intensity
 
