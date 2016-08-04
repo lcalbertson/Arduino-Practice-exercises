@@ -20,7 +20,9 @@ Arduino simple learning projects.
 
 5b - Using PWM make the LED smoothly fade from 100% to 0% back to 100%
 
-6 - Using a single LED and a momentary switch write a sketch where a user can push the button to turn on and off the LED (lookup switch debouncing but keep it simple it’s not critical)
+6a - Using a single LED and a momentary switch use digitalRead and digitalWrite to have a sketch where if the button is pushed the light turns on and turns off again when button is released
+
+6b - Using a single LED and a momentary switch write a sketch where a user can push the button to turn on and off the LED (lookup switch debouncing but keep it simple it’s not critical)
 
 7 - Make a "3 way lamp" using the LED and button to let the user turn on the light at 100/50/25/off
 
