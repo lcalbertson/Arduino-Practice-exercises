@@ -3,25 +3,15 @@
  * 
  */
 
-int led = 13;  //define onboard LED on pin 13 as a global variable
-int delayLength = 5000; //declares an int variable and assigns value 5000
+int delayLength = 5000  //sets delay
 
 void setup()
 {
-  Serial.begin();
+  Serial.begin(9600); //sets up the serial connection
 }
 
 void loop() 
 {
-  if(ledState == HIGH)
-  {
-    digitalWrite(led,LOW);
-    ledState = LOW; //saves the state of the LED digitalRead is not needed since the previous line set the LED
-  }
-  else
-  {
-    digitalWrite(led,HIGH);
-    ledState = HIGH;
-  }
-  delay(delayLength);
+  Serial.println("Hello World");  //sends message over the serial
+  delay(delayLength);   //delay
 }
