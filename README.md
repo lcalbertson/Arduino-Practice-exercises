@@ -1,4 +1,4 @@
-# Arduino-Practice-exercises
+﻿# Arduino-Practice-exercises
 
 Arduino simple learning projects.
 
@@ -14,9 +14,11 @@ Arduino simple learning projects.
 
 3c - With a single LED write a sketch that blinks the LED at a rate of 500 ms on 500 ms off for ten cycles then blinks at a rate of 475 ms on and 475 ms off for 10 cycles then continue to decrease at this same rate and pattern until it reaches zero then repeat at 500 ms starting point
 
-4 - Use a single LED and PWM to make the LED appear to be at an intensity of 100/75/50/25/10% changing between the levels at some constant rate
+4 - Use a single LED and PWM "analogWrite()" to make the LED appear to be at an intensity of 100/75/50/25/10% changing between the levels at some constant rate
 
-5 - Using PWM make the LED smoothly fade from 100% to 0%
+5a - Using PWM make the LED smoothly fade from 100% to 0%
+
+5b - Using PWM make the LED smoothly fade from 100% to 0% back to 100%
 
 6 - Using a single LED and a momentary switch write a sketch where a user can push the button to turn on and off the LED (lookup switch debouncing but keep it simple it’s not critical)
 
