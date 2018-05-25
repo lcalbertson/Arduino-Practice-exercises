@@ -1,4 +1,4 @@
-﻿# Arduino-Practice-exercises
+﻿Arduino-Practice-exercises
 
 Arduino simple learning projects.
 
